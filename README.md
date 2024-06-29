@@ -17,3 +17,7 @@ The script is intended to be run from the command line with the following argume
 
 ```sh
 python sync_directories.py -s /path/to/source -r /path/to/replica -p 60
+
+### Limitations
+Empty folders are deleted from replica folder and kept in source folder.
+
