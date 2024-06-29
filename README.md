@@ -22,4 +22,5 @@ python sync_directories.py -s /path/to/source -r /path/to/replica -l /path/to/lo
 
 ### Limitations
 Empty folders are deleted from replica folder and kept in source folder.
+
 Tested only on Windows, might not work in other platforms.
